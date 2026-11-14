@@ -1,0 +1,18 @@
+Component,Signal,ESP32 GPIO / Supply,Notes
+IR Sensor 1 (Floor 1),OUT,GPIO 13,Active LOW assumed
+IR Sensor 1,VCC,3.3V,
+IR Sensor 1,GND,GND,Common ground
+IR Sensor 2 (Floor 2),OUT,GPIO 14,Active LOW assumed
+IR Sensor 2,VCC,3.3V,
+IR Sensor 2,GND,GND,Common ground
+IR Sensor 3 (Floor 3),OUT,GPIO 27,Active LOW assumed
+IR Sensor 3,VCC,3.3V,
+IR Sensor 3,GND,GND,Common ground
+Push Button,Terminal 1,GPIO 26,INPUT_PULLUP
+Push Button,Terminal 2,GND,Pressed reads LOW
+Active Buzzer,Positive,GPIO 25,Use transistor driver if needed
+Active Buzzer,Negative,GND,Common ground
+16x2 I2C LCD,SDA,GPIO 21,Check I2C voltage levels
+16x2 I2C LCD,SCL,GPIO 22,Check I2C voltage levels
+16x2 I2C LCD,VCC,5V,As used in prototype
+16x2 I2C LCD,GND,GND,Common ground
